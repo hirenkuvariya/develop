@@ -1,7 +1,5 @@
-body
-  {
+body {
   background-image: url("img/bg1.jpg");
-
   background-size:cover;  
   background-repeat: no-repeat;
   
@@ -24,13 +22,13 @@ h3
    color: black;
   }
 
-table
-  {
+table.index{
    border: 2px solid black;
    text-align: start;
    color:black;
    text-decoration-style: bold;
-   margin-left: 30%;
+   margin-left: 40%;
+   margin-top: 8%;
    background-color: rgb(235, 238, 244);
    border-radius: 20px;
 }
@@ -40,8 +38,46 @@ button
     background-color: rgb(152, 152, 197);
     
     margin-left: 25%;
-    border-radius: 20px;
+    border-radius: 20px;   
     
 }
  
 
+body.login{
+  background-image: url(img/bg1.jpg);
+  background-size: cover;  
+}
+div,log{
+   border: 2px solid black;
+   text-align: center;
+   color:black;
+   text-decoration-style: bold;
+   width: 300px;
+   background-color: rgb(235, 238, 244);
+   border-radius: 20px;
+   margin-left: 34%;
+   margin-top: 8%;
+   
+}
+ input[type=text]
+ {
+  color:black;
+  text-decoration-style: bold;
+  /* margin-left: 40%; */
+  /* margin-top: 8%; */
+ }
+  input[type=password]
+  {
+  color:black;
+  text-decoration-style: bold;
+  /* margin-left: 40%; */
+  
+  }
+
+  input[type=submit]
+  {
+   background-color: blue;
+   border-radius: 10px;
+   width: 60px;
+   height: 20px;
+  }
