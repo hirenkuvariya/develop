@@ -1,5 +1,5 @@
 body {
-  background-image: url("./img/bg1.jpg");
+  background-image: url("img/bg1.jpg");
   background-size:cover;  
   background-repeat: no-repeat;
   
@@ -44,7 +44,7 @@ button
  
 
 body.login{
-  background-image: url(./img/bg1.jpg);
+  background-image: url(img/bg1.jpg);
   background-size: cover;  
 }
 div,log{
