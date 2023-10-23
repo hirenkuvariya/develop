@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+      background-color: gray;
+      text-align: center;
+      font-size: 30px;
+      display: none;
+    }
+    @media (max-width:500px) {
+        #box-1{
+            display: block;
+        }
+    }
+    @media (min-width:500px) and (max-width:700px) {
+        #box-2{
+            background-color: yellow;
+            color: green;
+            display: block;
+        }
+    }
+    @media (min-width:700px) and (max-width:1000px) {
+        #box-3{
+            display: block;
+            color: white;
+            background-color: black;
+        }
+    }
+    @media  (min-width:1000px) and  (max-width:1200px) {
+        #box-4{
+            display: block;
+            background-color: brown;
+        }
+    }
+
+    .pagination{
+          color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+    }
+
+    .wrapper{
+        display: grid;
+        text-align: center;
+        height: 250px;
+        background-color: gray;
+        
+        grid-template-columns: repeat( 3, 1fr);
+    }
+</style>
+<body>
+    <div class="box" id="box-1">iphone</div>
+    <div class="box" id="box-2">teblate</div>
+    <div class="box" id="box-3">computer</div>
+    <div class="box" id="box-4">big size</div>
+
+
+    <div class="wrapper">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="for">for</div>
+        <div class="five">five</div>
+        <div class="six">six</div>
+    </div>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+    <div class="head2">
+     
+      </div>
+      <div class="row1">
+        header 
+      </div>
+</body>
+</html>

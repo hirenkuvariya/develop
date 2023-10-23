@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>nav</title>
+    <link rel="stylesheet" href="./css/css_bootstrap.min.css">
+    <script src="./js/js_bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./nav.css">
+</head>
+<body>
+
+    <!-- <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">contact</a>
+        </li>
+        <li class="nav-item">
+           <a href="" class="nav-link disabled">blog</a>
+        </li>
+    </ul>
+
+    <ul class="nav flex-column justify-content-center">
+        <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link">contact</a>
+        </li>
+        <li class="nav-item">
+           <a href="" class="nav-link disabled">blog</a>
+        </li>
+    </ul>
+
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="##" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="###" class="nav-link">contact</a>
+        </li>
+        <li class="nav-item">
+           <a href="####" class="nav-link disabled">blog</a>
+        </li>
+    </ul>  
+
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="##" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="###" class="nav-link">contact</a>
+        </li>
+        <li class="nav-item">
+           <a href="####" class="nav-link disabled">blog</a>
+        </li>
+    </ul>  
+
+    <ul class="nav  nav-pills nav-justified">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="##" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="###" class="nav-link">contact</a>
+        </li>
+        <li class="nav-item">
+           <a href="####" class="nav-link disabled">blog</a>
+        </li>
+    </ul>   -->
+
+<!-- <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link active  ">Home</a>
+         </li>
+         <li class="navbar-nav">
+            <a href="##"class="nav-link">About</a>
+         </li>
+         <li class="navbar-nav">
+            <a href="##"class="nav-link">Contact</a>
+         </li>
+         <li class="navbar-nav">
+            <a href="##"class="nav-link">Blog</a>
+         </li>
+         <li class="navbar-nav">
+            <a href="##"class="nav-link">Feedback</a>
+         </li>
+      </ul>
+  </div>
+  </nav> -->
+
+  <!-- <nav class="navbar navbar-expand-sm bg-dark mt-3 p-5 fs-3 ">
+    <a class="navbar-brand text-light fs-2 " href="#">
+        <img src="./logo.png" class="rounded-pill" style="width:40px;"  alt="">
+    </a>
+ <div class="container-fluid justify-content-center">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+           <a href="#" class="nav-link active  text-light">Home</a>
+        </li>
+        <li class="navbar-nav">
+           <a href="##"class="nav-link text-light">About</a>
+        </li>
+        <li class="navbar-nav">
+           <a href="##"class="nav-link text-light">Contact</a>
+        </li>
+        <li class="navbar-nav">
+           <a href="##"class="nav-link text-light">Blog</a>
+        </li>
+        <li class="navbar-nav">
+           <a href="##"class="nav-link text-light">Feedback</a>
+        </li>
+      </ul>
+  </div>
+  </nav>
+    -->
+
+  <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand text-light fs-2 " href="#">
+            <img src="./logo.png" class="rounded-pill" style="width:40px;"  alt="">
+            <button class="btn btn-danger fs-4" type="button" data-bs-toggle="modal" data-bs-target="#mymodal">login</button>
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="menu">
+            <ul class="navbar-nav fs-2">
+                <li class="nav-item">
+                   <a href="#home" class="nav-link active  text-light">Home</a>
+                </li>
+                <li class="navbar-nav">
+                   <a href="#about"class="nav-link text-light">About</a>
+                </li>
+                <li class="navbar-nav">
+                   <a href="#contact" data-bs-toggle="offcanvas" data-bs-target="#contact"class="nav-link text-light">Contact</a>
+                </li>
+                <li class="navbar-nav">
+                   <a href="#feedback"class="nav-link text-light">Feedback</a>
+                </li>
+                <li class="navbar-nav dropdown">
+                   <a href="##"class="nav-link dropdown-toggle  text-light" data-bs-toggle="dropdown">
+                    More</a>
+                    <ul class="dropdown-menu dropdown-menu-dark fs-2 ">
+                        <li><a class="dropdown-item text-light" href="#">services</a></li>
+                        <li><a class="dropdown-item text-light" href="#">extra services</a></li>
+                        <li><a class="dropdown-item text-light" href="#">A third link</a></li>
+                      </ul>
+                </li>
+              </ul>
+        </div>
+        <form class="d-flex">
+            <input class="form-control fs-4 me-2" type="text" placeholder="Search" >
+            <button class="btn btn-primary fs-4" type="button">Search</button>
+          </form>
+    </div>
+  </nav>
+
+  <div class="carousel slide" data-base-ride="carousel" id="home">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#home" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#home" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./slide/g.jfif" class="d-block w-100">
+            <div class="carousel-caption">
+                <p>girnar</p>
+             </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./slide/som.jpg" class="d-block w-100">
+            <div class="carousel-caption">
+                <p>somnath</p>
+             </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./slide/dwarka.jfif" class="d-block w-100 h-40">
+            <div class="carousel-caption">
+                <p>dwarka</p>
+             </div>
+        </div>
+    </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+       <div class="modal " id="mymodal">
+
+        <div class="modal-dialog modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="model-title">please login</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="email" class="form-label fs-2">Email:</label>
+                    <input type="email" class="form-control fs-3" id="email" placeholder="Enter email" >
+                    <label for="pwd" class="form-label fs-2">Password:</label>
+                    <input type="password" class="form-control fs-3" id="pwd" placeholder="Enter password">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success fs-3" title="conform login" data-bs-dismiss="modal">login</button>
+                    <button type="button" class="btn btn-danger fs-3" title="cancel login" data-bs-dismiss="modal">cancel</button>
+                </div>
+            </div>
+        </div>
+     
+        
+       </div>
+       <!-- <div class="toast show">
+        <div class="toast-header">
+            <strong class="me-auto">Toast Header</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+        <div class="toast-body">
+            some text inside the toast body
+        </div>
+       </div> -->
+
+       <div class="container" data-bs-theme="dark" id="about">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./slide/about.jpg" class="img-thumbnail mt-3" style="height: 500px;" alt="">
+            </div>
+            <div class="col-lg-8 fs-4" style="margin-top: 15%;">
+                <h1>about us</h1><hr>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit ut vitae? Ipsum excepturi molestiae itaque, minus harum doloribus mollitia voluptate molestias nemo dolor magnam inventore, labore adipisci voluptatibus delectus?
+            </div>
+        </div>
+       </div><hr>
+
+
+
+       <div class="offcanvas offcanvas-start" id="contact">
+        <div class="offcanvas-header justify-content-center mt-3">
+            <h1 class="fs-1 fw-bold">Contact</h1>
+        </div>
+        <div class="offcanvas-body fs-3">
+          
+            <h2>Address</h2><hr>
+            Flexo Hydraulic And Engineers,<br>
+            Nanavati Cir,<br>
+            Girirajnagar, <br>
+            Rajkot, <br>
+            Gujarat 360007
+       
+        </div>
+       </div>
+     <!-- <div class="container-fluid">
+        <div class="row flex-wrap">
+            <div class="col">
+                <h1>1</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing eli
+                    t.Deleniti nihil inventore laborum, ip
+            </div>
+            <div class="col">
+                <h1>2</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing eli
+                    t.Deleniti nihil inventore laborum, ip
+            </div> <div class="col  align-self-start">
+                <h1>3</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing eli
+                    t.Deleniti nihil inventore laborum, ip
+            </div>
+            <div class="col">
+                <h1>4</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing eli
+                    t.Deleniti nihil inventore laborum, ip
+            </div>
+
+            <div class="col">
+                <h1>4</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing eli
+                    t.Deleniti nihil inventore laborum, ip
+            </div>        </div>
+     </div> -->
+
+<div class="container-fluid  ">
+
+    <!-- <form action=""  data-bs-theme="dark"   id="feedback">
+        <h1 class="fs-1" style="text-align: center;">Feedback</h1><hr>
+        <label class="form-label fs-2">Name :-</label>
+        <input type="text" class="form-control fs-3" placeholder="Enter your name">
+        <label class="form-label fs-2">Email :-</label>
+        <input type="email" class="form-control fs-3" placeholder="Enter your email">
+        <label class="form-label fs-2">Comment:-</label>
+        <textarea class="form-control fs-3"  placeholder="description...." rows="3"></textarea>
+        <label class="form-label fs-3 mt-3">
+            <input class="form-check-input fs-3" type="checkbox" name="remember"> Remember me
+          </label><br>
+        <br><input type="button" value="submit" class=" btn btn-success fs-3 bg-primary">
+    </form> -->
+
+<form> 
+    <input type="text" class="form-control form-control-lg"  placeholder=".form-control-lg" disabled >
+    <input type="text" readonly class="form-control-plaintext" value="hiren@gmail.com">
+</form>
+<div class="mb-3">
+<label class="form label">Default file input example</label>
+<input type="file" class="form-control" >
+</div>
+<div class="mb-3">
+    <label for="form-lable">multiple</label>
+    <input type="file" class="form-control" multiple>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">datlist</label>
+    <input list="datalist" placeholder="type to serch....">
+    <datalist id="datalist">
+        <option value="green"></option>
+        <option value="green"></option>
+        <option value="green"></option>
+        <option value="green"></option>
+        <option value="green"></option>
+        <option value="green"></option>
+        <option value="green"></option>
+    </datalist>
+</div>
+
+
+<div class="select">
+    <select class="form-select">
+    <option selected>Open this select menu</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option></select>
+</div>
+
+<div class="checkbox fs-2">
+    <input type="checkbox" name="ram" value="name" class="form-check-input" checked>1
+    <input type="checkbox" name="syam" value="name" class="form-check-input">2
+    <input type="checkbox" name="sita" value="name" class="form-check-input">3
+    <input type="checkbox" name="laxman" value="name"  class="form-check-input">4
+</div>
+
+<div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox"  value="option1">
+    <label class="form-check-label">1</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" value="option2">
+    <label class="form-check-label" >2</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox"  value="option3" disabled>
+    <label class="form-check-label">3 (disabled)</label>
+  </div>
+
+<div class="form-check form-switch">
+    <input type="checkbox" class="form-check-input">
+    <label class="form-check-label">Default switch checkbox input</label>
+</div>
+
+<div class="form-check form-switch">
+    <input type="checkbox" class="form-check-input"  checked>
+</div>
+
+<div class="form-check form-switch">
+    <input type="checkbox" class="form-check-input" disabled>
+</div>
+
+<div class="form-check form-switch">
+    <input type="checkbox" class="form-check-input" checked disabled>
+</div>
+
+
+<div class="rad fs-2">
+   Male <input type="radio" name="gen" value="male" class="form-check-input" checked>
+   Female <input type="radio" name="gen" value=Female" class="form-check-input">
+   Other <input type="radio" name="gen" value="Officia" class="form-check-input" disabled>
+</div>
+</div>
+
+
+<input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+<label class="btn btn-outline-primary" for="btn-check-outlined">Single toggle</label>
+
+<input type="checkbox" class="btn-check" id="btn-check-2-outlined" checked autocomplete="off">
+<label class="btn btn-outline-secondary" for="btn-check-2-outlined">Checked</label>
+
+<input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+<label class="btn btn-outline-success" for="success-outlined">Checked success radio</label>
+
+<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+<label class="btn btn-outline-danger" for="danger-outlined">Danger radio</label>
+
+<label for="range" class="form-label">coustam range</label>
+<input type="range" class="form-range" step="5">
+
+<form action="">
+    <div class="input-group">
+        <span class="input-group-text">firstname</span>
+        <input type="text" class="form-control" placeholder="enter name">
+        <span class="input-group-text">lastname</span>
+        <input type="text" class="form-control"  placeholder="enter last name">
+    </div>
+    <div class="input-group">
+        <span class="input-group-text">peson</span>
+        <input type="text" class="form-control" placeholder="enter name">
+        <input type="text" class="form-control" placeholder="enter last name">
+    </div>
+</form>
+
+
+<div class="input-group mb-3">
+    <button class="btn btn-outline-primary" type="button">Basic Button</button>
+    <input type="text" class="form-control" placeholder="Some text">
+  </div>
+  
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search">
+    <button class="btn btn-success" type="submit">Go</button>
+  </div>
+  
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Something clever..">
+    <button class="btn btn-primary" type="button">OK</button>
+    <button class="btn btn-danger" type="button">Cancel</button>
+  </div>
+
+
+
+
+  <div class="input-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">dropdown</button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-item">abc</li>
+      <li class="dropdown-item">abc</li>
+      <li class="dropdown-item">abc</li>
+      <li class="dropdown-item">abc</li>
+    </ul>
+    <input type="text" placeholder="enter name" class="form-control">
+  </div>
+
+
+  <div class="form-floating mb-3 mt-3">
+    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+    <label for="email">Email</label>
+  </div>
+  
+  <div class="form-floating mt-3 mb-3">
+    <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    <label for="pwd">Password</label>
+  </div>
+  
+  <form action="/action_page.php" class="was-validated">
+    <div class="mb-3 mt-3">
+      <label for="uname" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+      <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <!-- <div class="ratio ratio-1x1">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vUkosQckVuQ?si=f1xmE-y7KkHIBdb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+ </div> -->
+ <h2 class="visually-hidden">Title for screen readers</h2>
+<a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<div class="visually-hidden-focusable">A container with a <a href="#">focusable element</a>.</div>
+</body>
+</html>

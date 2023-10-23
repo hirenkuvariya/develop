@@ -1,0 +1,48 @@
+
+.main{
+    padding-right:150px ;
+    font-size: xx-large;
+   
+  
+   
+}
+#brand{
+    padding-left:140px;
+   
+}
+#navli a{
+color:aliceblue;
+}
+
+#navli a:hover{
+    color:rgb(233, 233, 14);
+    text-decoration: none;
+    }
+
+#navbar{
+    background-color: rgb(2, 2, 30);
+  
+    }
+
+#row1{
+    background-color: rgb(52, 52, 74);
+   
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background: rgb(2, 2, 30);
+    border-radius:15px;
+    padding:60px 10px;
+    margin:30px 0px;
+    color:  aliceblue;;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
