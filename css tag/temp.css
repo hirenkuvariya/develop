@@ -1,0 +1,211 @@
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+}
+.serch{
+    float: right;
+    height: 50px;
+  
+}
+.serch a:hover{
+   background-color: red;
+}
+.item{
+    font-size: 20px;
+    display: block;
+    padding-top:12px;
+ 
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    align-items: center;
+    justify-content: center;
+  
+}
+a:hover{
+    background-color: gray;
+    color: black;
+    border-radius: 0%;
+}
+  div.dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+  }
+.dropdown-content a{
+    display: block;
+    background-color: black;
+ }
+ .dropdown-content a:hover{
+    background-color:gray
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .bg1{
+    background-image: url(./temp\ bg\ 1.jpg);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+  }
+
+  .bg1 p {
+    padding-top: 550px;
+  }
+
+  .THEBAND{
+    text-align: center;
+    /* font-size: 40px; */
+    width: 100%;
+    padding-top: 40px;
+  }
+  .THEBAND h1{
+    font-size: 40px;
+  }
+
+  .THEBAND h5 {
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+  }
+
+  .brand{
+    width: 50%;
+    padding-left: 25%;
+    font-size: 15px;
+  }
+  
+ .card{
+    float: left;
+    text-align: center;
+    padding: 20px 26px;
+    margin-right: 25px;
+    
+ }
+
+ .card img{
+    width: 150px;
+    height: 150px;
+      margin-right: 25px;
+ }
+
+ .img3{
+   width: 100%;
+    padding-left: 25%; 
+ 
+ }
+
+ .bgblack {
+ background-color: black;
+   margin-top: 250px;
+   height: 800px;
+ }
+
+ .bgblack h3{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   padding-top: 50px;
+   font-weight: lighter;
+ }
+
+.bgblack h5{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+.whitebox{
+   width: 40%;
+   height: 100px;
+   background-color: white;
+   margin-left: 30%;
+ 
+}
+.whitebox li {
+    color: gray;
+    text-align: start;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.l1 span{
+border: 1px solid black;
+background-color: red;
+color: white;
+}
+
+.l2 span{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+ 
+    }
+
+    .l3 span{
+        color: white;
+        float: right;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 40px;
+        }
+
+       
+
+        .whitebox2{
+            width: 13.33%;
+            margin-top: 5px;
+            height: 300px;
+            background-color: white;
+            margin-left: 30%;
+          
+         }
+        
+        .box{
+            float: left;
+            margin-top: 5px;
+          margin-left:30% ;
+            background-color: white;
+        }
+        .box1 img{
+            width: 195px;
+            height: 150px;
+        }
+        .box1{
+            float: right;
+            margin-left: 3px;
+        }
+        .box1 button{
+            align-items: center;
+            width: 100px;
+            margin-bottom: 5px;
+            height: 50 px;
+            border: 2px solid black;
+            color: white;
+            font-size: 15px;
+            background-color: black;
+        }
+        .box1 button:hover{
+           background-color: gray;
+           color: black;
+        }
+
+.form{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+}
