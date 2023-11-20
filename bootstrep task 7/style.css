@@ -1,0 +1,32 @@
+body{
+    font-family:  sans-serif;
+   
+#navid a{
+    padding-right:30px ;
+    font-size: 15px;
+   
+    
+}
+#navid a:hover{
+   color:rgb(56, 124, 250);
+   font-weight: bold;
+}
+#active {
+    color:rgb(56, 124, 250);
+    font-weight: bold;
+}
+
+#c1{
+    margin: 10px;
+}
+
+#con2{
+
+ text-align: center;
+align-self: center;
+ justify-content: center;
+   
+}
+
+
+
